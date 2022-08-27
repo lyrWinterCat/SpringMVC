@@ -51,7 +51,7 @@ public class RequestBodyStringController {
      * - 메시지 바디 정보를 직접 조회(@RequestParam X, @ModelAttribute X)
      * - HttpMessageConverter 사용 -> StringHttpMessageConverter 적용
      *
-     * 응답에서도 HttpEntity 사용 가능
+     * 응답에서도 HttpEntity 사용 가능ㄹ
      * - 메시지 바디 정보 직접 반환(view 조회X)
      * - HttpMessageConverter 사용 -> StringHttpMessageConverter 적용
      */
